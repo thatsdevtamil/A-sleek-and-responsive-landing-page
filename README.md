@@ -1,38 +1,12 @@
-# 🚀 Sleek Landing Page — React 19 + Tailwind CSS v4
+# React + Vite
 
-A modern, responsive, and animated landing page built using **React 19**, **Tailwind CSS v4**, and **Framer Motion**. Perfect for SaaS startups, agencies, or personal portfolios.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌟 Features
+Currently, two official plugins are available:
 
-- ✅ **Modern UI** — Clean, elegant, and minimalist design
-- ✅ **Fully Responsive** — Mobile-first layout works on all devices
-- ✅ **Framer Motion Animations** — Smooth, modern entrance effects
-- ✅ **Testimonials Carousel** — Powered by Swiper.js
-- ✅ **Interactive Components** — Engage your visitors with clickable elements
-- ✅ **Newsletter Subscription Form** — Integrated design for email signups
-- ✅ **Company Logo Showcase** — Trust-building section for partners
-- ✅ **Pricing Calculator** — Dynamic pricing section
-- ✅ **Service Showcase** — Highlight what you offer clearly
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Tech Stack
+## Expanding the ESLint configuration
 
-| Tech             | Usage                                |
-|------------------|----------------------------------------|
-| React 19         | JavaScript UI Library                 |
-| Tailwind CSS v4  | Utility-first CSS Framework           |
-| Framer Motion    | React animations library              |
-| Swiper.js        | Responsive carousel for testimonials  |
-| React Icons      | Icon set for UI elements              |
-
-## 📸 Preview
-
-![Landing Page Screenshot](./preview.png) <!-- Add your own screenshot here -->
-
-## 🔧 Installation
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-npm install
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
